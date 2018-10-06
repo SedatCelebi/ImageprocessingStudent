@@ -34,6 +34,7 @@
             this.işlemlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.renkAlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.griYontemleriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.renkSıralamaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,7 +68,8 @@
             // 
             this.işlemlerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.renkAlToolStripMenuItem,
-            this.griYontemleriToolStripMenuItem});
+            this.griYontemleriToolStripMenuItem,
+            this.renkSıralamaToolStripMenuItem});
             this.işlemlerToolStripMenuItem.Name = "işlemlerToolStripMenuItem";
             this.işlemlerToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.işlemlerToolStripMenuItem.Text = "İşlemler";
@@ -85,6 +87,13 @@
             this.griYontemleriToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.griYontemleriToolStripMenuItem.Text = "Gri Yontemleri";
             this.griYontemleriToolStripMenuItem.Click += new System.EventHandler(this.griYontemleriToolStripMenuItem_Click);
+            // 
+            // renkSıralamaToolStripMenuItem
+            // 
+            this.renkSıralamaToolStripMenuItem.Name = "renkSıralamaToolStripMenuItem";
+            this.renkSıralamaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.renkSıralamaToolStripMenuItem.Text = "Renk Sıralama";
+            this.renkSıralamaToolStripMenuItem.Click += new System.EventHandler(this.renkSıralamaToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -110,6 +119,7 @@
         private System.Windows.Forms.ToolStripMenuItem işlemlerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem renkAlToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem griYontemleriToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem renkSıralamaToolStripMenuItem;
     }
 }
 

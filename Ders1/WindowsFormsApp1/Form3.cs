@@ -130,6 +130,23 @@ namespace WindowsFormsApp1
 
         private void kanalÇıkarımıToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            int gen = kaynak.Width;
+            int yuk = kaynak.Height;
+
+            islem = new Bitmap(gen, yuk);
+            for (int y = 0; y < yuk; y++)
+            {
+                for (int x = 0; x < gen; x++)
+                {
+                    Color renk = kaynak.GetPixel(x, y);
+                    int kanal=renk.R ;
+                    Color gri = Color.FromArgb(kanal , kanal , kanal );
+                    islem.SetPixel(x, y, gri);
+
+                }
+
+            }
+            islemBox.Image = islem;
 
         }
 

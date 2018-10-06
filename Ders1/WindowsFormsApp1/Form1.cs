@@ -36,5 +36,11 @@ namespace WindowsFormsApp1
             Form3 griformu = new Form3();
             griformu.ShowDialog();
         }
+
+        private void renkSıralamaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form4 renksiralama = new Form4();
+            renksiralama.ShowDialog();
+        }
     }
 }
