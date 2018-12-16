@@ -42,5 +42,41 @@ namespace WindowsFormsApp1
             Form4 renksiralama = new Form4();
             renksiralama.ShowDialog();
         }
+
+        private void histogramAlToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form5 histogramalma = new Form5();
+            histogramalma.ShowDialog();
+        }
+
+        private void invertToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form6 invert = new Form6();
+            invert.ShowDialog();
+        }
+
+        private void toplamaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form7 invert = new Form7();
+            invert.ShowDialog();
+        }
+
+        private void thresHoldToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form8 invert = new Form8();
+            invert.ShowDialog();
+        }
+
+        private void filtrelerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form9 invert = new Form9();
+            invert.ShowDialog();
+        }
+
+        private void hücreSaymaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form10 invert = new Form10();
+            invert.ShowDialog();
+        }
     }
 }

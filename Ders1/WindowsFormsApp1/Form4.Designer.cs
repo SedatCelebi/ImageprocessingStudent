@@ -68,14 +68,14 @@
             // açToolStripMenuItem
             // 
             this.açToolStripMenuItem.Name = "açToolStripMenuItem";
-            this.açToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.açToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.açToolStripMenuItem.Text = "Aç";
             this.açToolStripMenuItem.Click += new System.EventHandler(this.açToolStripMenuItem_Click);
             // 
             // kaydetToolStripMenuItem
             // 
             this.kaydetToolStripMenuItem.Name = "kaydetToolStripMenuItem";
-            this.kaydetToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.kaydetToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.kaydetToolStripMenuItem.Text = "Kaydet";
             this.kaydetToolStripMenuItem.Click += new System.EventHandler(this.kaydetToolStripMenuItem_Click);
             // 
@@ -88,6 +88,7 @@
             this.kontrolToolStripMenuItem.Name = "kontrolToolStripMenuItem";
             this.kontrolToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
             this.kontrolToolStripMenuItem.Text = "Kanal Tersle";
+            this.kontrolToolStripMenuItem.Click += new System.EventHandler(this.kontrolToolStripMenuItem_Click);
             // 
             // rGBToBRGToolStripMenuItem
             // 

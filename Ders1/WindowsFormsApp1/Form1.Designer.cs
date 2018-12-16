@@ -35,6 +35,12 @@
             this.renkAlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.griYontemleriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.renkSıralamaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.histogramAlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.invertToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toplamaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thresHoldToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.filtrelerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hücreSaymaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,7 +75,13 @@
             this.işlemlerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.renkAlToolStripMenuItem,
             this.griYontemleriToolStripMenuItem,
-            this.renkSıralamaToolStripMenuItem});
+            this.renkSıralamaToolStripMenuItem,
+            this.histogramAlToolStripMenuItem,
+            this.invertToolStripMenuItem,
+            this.toplamaToolStripMenuItem,
+            this.thresHoldToolStripMenuItem,
+            this.filtrelerToolStripMenuItem,
+            this.hücreSaymaToolStripMenuItem});
             this.işlemlerToolStripMenuItem.Name = "işlemlerToolStripMenuItem";
             this.işlemlerToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.işlemlerToolStripMenuItem.Text = "İşlemler";
@@ -94,6 +106,48 @@
             this.renkSıralamaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.renkSıralamaToolStripMenuItem.Text = "Renk Sıralama";
             this.renkSıralamaToolStripMenuItem.Click += new System.EventHandler(this.renkSıralamaToolStripMenuItem_Click);
+            // 
+            // histogramAlToolStripMenuItem
+            // 
+            this.histogramAlToolStripMenuItem.Name = "histogramAlToolStripMenuItem";
+            this.histogramAlToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.histogramAlToolStripMenuItem.Text = "Histogram Al";
+            this.histogramAlToolStripMenuItem.Click += new System.EventHandler(this.histogramAlToolStripMenuItem_Click);
+            // 
+            // invertToolStripMenuItem
+            // 
+            this.invertToolStripMenuItem.Name = "invertToolStripMenuItem";
+            this.invertToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.invertToolStripMenuItem.Text = "İnvert";
+            this.invertToolStripMenuItem.Click += new System.EventHandler(this.invertToolStripMenuItem_Click);
+            // 
+            // toplamaToolStripMenuItem
+            // 
+            this.toplamaToolStripMenuItem.Name = "toplamaToolStripMenuItem";
+            this.toplamaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.toplamaToolStripMenuItem.Text = "Toplama";
+            this.toplamaToolStripMenuItem.Click += new System.EventHandler(this.toplamaToolStripMenuItem_Click);
+            // 
+            // thresHoldToolStripMenuItem
+            // 
+            this.thresHoldToolStripMenuItem.Name = "thresHoldToolStripMenuItem";
+            this.thresHoldToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.thresHoldToolStripMenuItem.Text = "ThresHold";
+            this.thresHoldToolStripMenuItem.Click += new System.EventHandler(this.thresHoldToolStripMenuItem_Click);
+            // 
+            // filtrelerToolStripMenuItem
+            // 
+            this.filtrelerToolStripMenuItem.Name = "filtrelerToolStripMenuItem";
+            this.filtrelerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.filtrelerToolStripMenuItem.Text = "Filtreler";
+            this.filtrelerToolStripMenuItem.Click += new System.EventHandler(this.filtrelerToolStripMenuItem_Click);
+            // 
+            // hücreSaymaToolStripMenuItem
+            // 
+            this.hücreSaymaToolStripMenuItem.Name = "hücreSaymaToolStripMenuItem";
+            this.hücreSaymaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.hücreSaymaToolStripMenuItem.Text = "Hücre sayma";
+            this.hücreSaymaToolStripMenuItem.Click += new System.EventHandler(this.hücreSaymaToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -120,6 +174,12 @@
         private System.Windows.Forms.ToolStripMenuItem renkAlToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem griYontemleriToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem renkSıralamaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem histogramAlToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem invertToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toplamaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thresHoldToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem filtrelerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem hücreSaymaToolStripMenuItem;
     }
 }
 

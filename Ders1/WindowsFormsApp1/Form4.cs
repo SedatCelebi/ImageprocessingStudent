@@ -94,6 +94,11 @@ namespace WindowsFormsApp1
 
         }
 
+        private void kontrolToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void kaydetToolStripMenuItem_Click(object sender, EventArgs e)
         {
             saveFileDialog1.Filter = "PNG|*.png";

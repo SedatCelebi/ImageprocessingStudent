@@ -37,3 +37,16 @@ C:\Users\asus\Desktop\goruntu\Github\ImageprocessingStudent\Ders1\WindowsFormsAp
 C:\Users\asus\Desktop\goruntu\Github\ImageprocessingStudent\Ders1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\asus\Desktop\goruntu\Github\ImageprocessingStudent\Ders1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\asus\Desktop\goruntu\Github\ImageprocessingStudent\Ders1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\asus\Desktop\goruntu\Github\Ders1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form5.resources
+C:\Users\asus\Desktop\goruntu\Github\Ders1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form6.resources
+C:\Users\asus\Desktop\goruntu\Github\Ders1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form7.resources
+C:\Users\asus\Desktop\goruntu\Github\Ders1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form8.resources
+C:\Users\asus\Desktop\goruntu\Github\Ders1\WindowsFormsApp1\bin\Debug\AForge.Imaging.dll
+C:\Users\asus\Desktop\goruntu\Github\Ders1\WindowsFormsApp1\bin\Debug\AForge.dll
+C:\Users\asus\Desktop\goruntu\Github\Ders1\WindowsFormsApp1\bin\Debug\AForge.Math.dll
+C:\Users\asus\Desktop\goruntu\Github\Ders1\WindowsFormsApp1\bin\Debug\AForge.Imaging.xml
+C:\Users\asus\Desktop\goruntu\Github\Ders1\WindowsFormsApp1\bin\Debug\AForge.xml
+C:\Users\asus\Desktop\goruntu\Github\Ders1\WindowsFormsApp1\bin\Debug\AForge.Math.xml
+C:\Users\asus\Desktop\goruntu\Github\Ders1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\asus\Desktop\goruntu\Github\Ders1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form9.resources
+C:\Users\asus\Desktop\goruntu\Github\Ders1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form10.resources
